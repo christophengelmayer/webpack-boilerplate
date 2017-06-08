@@ -1,6 +1,6 @@
 # My Webpack Boilerplate
 
-> A opinionated starting point for frontend projects.
+> An opinionated starting point for frontend projects.
 
 The hardest thing about just any work is to get started so the aim of this repository is to provida a solid boilerplate for frontend (HTML/(S)CSS/JS) projects.
 
