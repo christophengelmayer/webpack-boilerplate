@@ -131,6 +131,7 @@
 // @import "../../node_modules/inuitcss/objects/objects.crop";
 // @import "../../node_modules/inuitcss/objects/objects.tables";
 // @import "../../node_modules/inuitcss/objects/objects.pack";
+// @import "objects.icon";
 
 
 
@@ -146,12 +147,12 @@
 
 
 // UTILITIES
-@import "../../node_modules/inuitcss/utilities/utilities.clearfix";
+// @import "../../node_modules/inuitcss/utilities/utilities.clearfix";
 
 $inuit-offsets: true;
-@import "../../node_modules/inuitcss/utilities/utilities.widths";
-@import "../../node_modules/inuitcss/utilities/utilities.headings";
-@import "../../node_modules/inuitcss/utilities/utilities.spacing";
-@import "../../node_modules/inuitcss/utilities/utilities.print";
-@import "../../node_modules/inuitcss/utilities/utilities.hide";
+// @import "../../node_modules/inuitcss/utilities/utilities.widths";
+// @import "../../node_modules/inuitcss/utilities/utilities.headings";
+// @import "../../node_modules/inuitcss/utilities/utilities.spacing";
+// @import "../../node_modules/inuitcss/utilities/utilities.print";
+// @import "../../node_modules/inuitcss/utilities/utilities.hide";
 

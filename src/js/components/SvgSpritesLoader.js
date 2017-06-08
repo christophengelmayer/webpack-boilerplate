@@ -6,4 +6,4 @@ export default function(){
     require('webpack-svgstore-plugin/src/helpers/svgxhr')(__svg__);
 }
 
-// Usage: <svg class="icon"><use xlink:href="#icon-menu"></use></svg>
+// Usage: <svg><use xlink:href="#icon-demo"></use></svg>
