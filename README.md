@@ -2,7 +2,7 @@
 
 > A opinionated starting point for frontend projects.
 
-The hardest thing about just about any project is to get started. This is a boilerplate for frontend (HTML/(S)CSS/JS) projects.
+The hardest thing about just any work is to get started so the aim of this repository is to provida a solid boilerplate for frontend (HTML/(S)CSS/JS) projects.
 
 ## Installation
 
