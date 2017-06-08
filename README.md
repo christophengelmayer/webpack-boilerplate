@@ -18,5 +18,5 @@ $ npm run watch
 ## Usage
 
 * `npm run build` run Webpack.
-* `npm run production` run Webpack and minify output.
+* `npm run production` run Webpack and optimize output for production.
 * `npm run watch` will watch source files for changes and run Webpack automatically to recompile assets if needed. It will also start Browsersync serving the `/public` directory.
