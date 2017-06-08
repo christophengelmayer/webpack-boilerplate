@@ -15,7 +15,7 @@ $ npm install
 $ npm run watch
 ```
 
-## Options
+## Usage
 
 * `npm run build` run Webpack.
 * `npm run production` run Webpack and minify output.
