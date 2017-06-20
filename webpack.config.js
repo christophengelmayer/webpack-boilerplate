@@ -38,10 +38,28 @@ module.exports = {
                 test: /\.s[ac]ss$/,
                 use: ExtractTextPlugin.extract({
                     use: [
-                        {
-                            loader: 'css-loader'
+                        { 
+                            loader: 'css-loader',
+                            options: {
+                                sourceMap: true,
+                                importLoaders: 1 
+                            }
                         },
-                        'sass-loader'
+                        { 
+                            loader: 'postcss-loader',
+                            options: {
+                                sourceMap: true,
+                                plugins: [
+                                    require('autoprefixer')
+                                ]
+                            }
+                        },
+                        { 
+                            loader: 'sass-loader',
+                            options: {
+                                sourceMap: true
+                            } 
+                        }
                     ],
                     fallback: 'style-loader'
                 })
